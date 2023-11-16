@@ -1,6 +1,6 @@
 ﻿namespace Inventor_API.Models
 {
-    public class Restaurant
+    public class Category
     {
         public int Id { get; set; }
 
