@@ -7,5 +7,6 @@ namespace Inventor_API.Controllers
     [ApiController]
     public class BaseController : ControllerBase
     {
+
     }
 }
