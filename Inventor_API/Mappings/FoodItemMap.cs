@@ -9,7 +9,8 @@ namespace Inventor_API.Mappings
         {
             Id(food => food.Id);
             Map(food => food.Name);
-            Map(food => food.Description);
+            Map(food => food.Quantity);
+            HasOneToMany(food => food.CategoryList);
 
 
         }
