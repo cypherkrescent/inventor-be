@@ -1,4 +1,4 @@
-﻿using FluentNHibernate.Mapping;
+﻿
 using Inventor_API.Models;
 
 namespace Inventor_API.Mappings
