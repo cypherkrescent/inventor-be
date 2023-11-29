@@ -1,11 +1,20 @@
 ﻿namespace Inventor_API.Models
 {
-    public class Category
+    public class Category : BaseClass
+
     {
-        public int Id { get; set; }
+        public Category () 
+        {
 
-        public string Name { get; set; }
+        }
 
-        public List<FoodItem> FoodItems { get; set; } = new List<FoodItem>();
+        public Category (string name)
+        {
+            Name = name;
+        }
+
+        public virtual string Name { get; set; }
+
+        public IList<FoodItem>? FoodItems { get; set; }
     }
 }

@@ -1,11 +1,21 @@
-﻿namespace Inventor_API.Models
+﻿using System.Xml.Linq;
+
+namespace Inventor_API.Models
 {
-    public class Restaurant
+    public class Restaurant : BaseClass
     {
-        public int Id { get; set; }
+        public Restaurant ()
+        {
 
-        public string Name { get; set; }
+        }
 
-        public List<FoodItem> FoodItems { get; set; } = new List<FoodItem>();
+        public Restaurant (string name)
+        {
+            Name = name;
+        }
+
+        public virtual string? Name { get; set; }
+
+        public IList<FoodItem> FoodItems { get; set; }
     }
 }
