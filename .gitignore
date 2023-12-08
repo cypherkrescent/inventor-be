@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Inventor_API/Controllers/BaseController.cs
+/Inventor_API/Inventor_API.sln
+/Inventor_API/Db/SessionFactory.cs
+/Inventor_API/Models/FoodItem.cs
+/Inventor_API/Models/Category.cs
