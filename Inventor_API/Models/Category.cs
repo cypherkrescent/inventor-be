@@ -15,6 +15,6 @@
 
         public virtual string Name { get; set; }
 
-        public IList<FoodItem>? FoodItems { get; set; }
+        public IList<FoodItem> FoodItems { get; set; }
     }
 }
