@@ -39,8 +39,6 @@ namespace Inventor_API.Db
             }
         }
 
-        public ISession Session => _sessionFactory.OpenSession();
-
         public ISessionFactory _sessionFactory;
         private ISessionFactory BuildSessionFactory()
         {
