@@ -14,7 +14,7 @@ namespace Inventor_API.Models
             Name = name;
         }
 
-        public virtual string? Name { get; set; }
+        public virtual string Name { get; set; }
 
         public IList<FoodItem> FoodItems { get; set; }
     }
